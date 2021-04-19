@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url("../img/back.jpg");
+}
+form input div button{
+
+
+}
+
+#afficheur {
+    width: 400px;
+    padding: 11px;
+}
+
+.line-one {
+  display: flex;
+  
+}
+.line-one button{
+  flex-basis: 250px;
+  padding: 5px;
+}
+div .slash {
+
+    flex-basis: 75px;
+}
+div .dot {
+    padding: 5px;
+    flex-basis:75px ;
+}
+
+
+.line-two {
+    
+    display: flex;
+    
+}
+.line-two button {
+    padding: 5px;
+    flex-basis:100px;
+}
+
+
+.line-three {
+    display: flex;
+}
+.line-three button{
+    flex-basis: 100px;
+    padding: 5px;
+}
+
+.line-four {
+    display: flex;
+}
+.line-four button {
+    flex-basis: 100px;
+    padding: 5px;
+}
+
+.line-five {
+    display: flex;
+}
+div .zero {
+    flex-basis:200px ; 
+}
+
+
+div .egale {
+    padding: 5px;
+    flex-basis: 200px;
+}
