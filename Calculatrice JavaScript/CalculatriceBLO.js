@@ -13,17 +13,17 @@ class CalculatriceBLO {
         this.solution = undefined;
         switch (this.operation) {
             case '+':
-                this.solution = (this.x + this.y).toFixed(2);
+                this.solution = this.x + this.y;
                 break;
             case '-':
-                this.solution =(this.x - this.y).toFixed(2);
+                this.solution =this.x - this.y;
                     break;
                     case '*':
-                        this.solution = (this.x * this.y).toFixed(2);
+                        this.solution = this.x * this.y;
                             break;
                     
             case '/':
-                this.solution = (this.x / this.y).toFixed(2);
+                this.solution = this.x / this.y;
                     break;
                     
                     

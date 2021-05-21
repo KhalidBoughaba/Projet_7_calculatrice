@@ -4,15 +4,11 @@
   padding: 0;
 }
 body {
-  background-image: url("../img/back.jpg");
+  background-image: linear-gradient(black, #ffff);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-.con {
-  /* margin: 17%;
-  margin-left: 30%; */
 }
 
 #afficheur {
@@ -20,10 +16,12 @@ body {
   padding: 11px;
   border-radius: 10px;
   border: none;
+  height: 55px;
 }
 
 .line-zero {
   display: flex;
+  margin: 5px;
 }
 .line-zero button:first-child {
   flex-basis: 300px;
@@ -31,12 +29,18 @@ body {
   background-color: rgba(255, 0, 0, 0.623);
   border-radius: 10px;
   border: none;
+  height: 50px;
+  font-size: 35px;
+  cursor: pointer;
 }
 .line-zero button:last-child {
   flex-basis: 100px;
   padding: 5px;
   border-radius: 10px;
   border: none;
+  margin-left: 5px;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .line-one {
@@ -47,6 +51,8 @@ body {
   padding: 5px;
   border-radius: 10px;
   border: none;
+  font-size: 35px;
+  cursor: pointer;
 }
 div .slash {
   flex-basis: 75px;
@@ -60,41 +66,60 @@ div .dot {
 
 .line-two {
   display: flex;
+  height: 50px;
+  margin: 5px;
 }
 .line-two button {
   padding: 5px;
   flex-basis: 100px;
   border-radius: 10px;
   border: none;
+  margin-left: 3px;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .line-three {
   display: flex;
+  height: 50px;
+  margin: 5px;
 }
 .line-three button {
   flex-basis: 100px;
   padding: 5px;
   border-radius: 10px;
   border: none;
+  margin-left: 3px;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .line-four {
   display: flex;
+  height: 50px;
+  margin: 5px;
 }
 .line-four button {
   flex-basis: 100px;
   padding: 5px;
   border-radius: 10px;
   border: none;
+  margin-left: 3px;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .line-five {
   display: flex;
+  height: 50px;
+  margin: 5px;
 }
 div .zero {
   flex-basis: 200px;
   border-radius: 10px;
   border: none;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 div .egale {
@@ -103,4 +128,6 @@ div .egale {
   background-color: rgba(0, 128, 0, 0.671);
   border-radius: 10px;
   border: none;
+  font-size: 35px;
+  cursor: pointer;
 }
