@@ -26,18 +26,17 @@ function Afficher(number){
         if(xString != undefined)
         afficheur.value += xString 
         if(calculatrice.operation != undefined)
-            afficheur.value += calculatrice.operation     
+            afficheur.value += calculatrice.operation    
         if(yString != undefined)
-            afficheur.value += yString 
-
+        afficheur.value += yString 
         }
-
 }
 
 function Operation(operationParam){
     if(calculatrice.operation == undefined){
         calculatrice.operation = operationParam;
         calculatrice.x = parseFloat(xString);
+
         Afficher();
     }else{
         alert("Vous avez déjà choisi l'opération " + calculatrice.operation);

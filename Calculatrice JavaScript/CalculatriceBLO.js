@@ -1,70 +1,42 @@
 // Métier
 class CalculatriceBLO {
-
-    // Private attributes
-    #_x;
-    #_y;
-    #_solution;
-    #_operation;
-
-    // Setters and getters
-    get x() {
-      return this._x  
-    }
-    set x(value){
-        this._x = value;
-    }
-    get y() {
-        return this._y 
-    }
-    set y(value){
-          this._y = value;
-    }
-    get y() {
-        return this._y 
-    }
-    set y(value){
-          this._y = value;
-    }
-    get operation() {
-        return this._operation
-    }
-    set operation(value){
-          this._operation = value;
+    constructor(x,y,operation,solution){
+        this.x = x ;
+        this.y = y ;
+        this.operation = operation ;
+        this.solution = solution ;
     }
 
-    get solution() {
-        return this._solution
-    }
-    set solution(value){
-          this._solution = value;
-    }
+
 
     Calculer(){
-        this._solution = undefined;
-        switch (this._operation) {
+        this.solution = undefined;
+        switch (this.operation) {
             case '+':
-                this._solution = this._x + this._y;
+                this.solution = (this.x + this.y).toFixed(2);
                 break;
             case '-':
-                this. _solution = this._x- this._y;
+                this.solution =(this.x - this.y).toFixed(2);
                     break;
-            case "*":
-                this._solution = this._x* this._y;
-                break;
-            case "/":
-                this._solution =this._x/ this._y;
-                break;            
+                    case '*':
+                        this.solution = (this.x * this.y).toFixed(2);
+                            break;
+                    
+            case '/':
+                this.solution = (this.x / this.y).toFixed(2);
+                    break;
+                    
+                    
             default:
                 break;
         }
-        return this._solution;
+        return this.solution;
     }
 
     Init(){
-        this._x = undefined;
-        this._y = undefined;
-        this._operation = undefined;
+        this.x = undefined;
+        this.y = undefined;
+        this.operation = undefined;
     }
 
   }
