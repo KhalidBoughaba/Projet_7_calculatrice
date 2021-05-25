@@ -26,7 +26,7 @@ require "treatment.php";
         <input type="input" hidden name="y" value="<?php echo $y ?>">
 
         <div class="line-zero">
-        <button class="span-two" name="C" value="0">AC</button>
+        <button name="C" value="0">AC</button>
         <button name="op" value="÷">÷</button>
         </div>
 

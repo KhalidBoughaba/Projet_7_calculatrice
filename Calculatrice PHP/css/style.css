@@ -35,6 +35,10 @@ body {
   font-size: 35px;
   cursor: pointer;
 }
+.line-zero button:first-child:hover {
+  background-color: rgb(255, 0, 0);
+}
+
 .line-zero button:last-child {
   flex-basis: 100px;
   padding: 5px;
@@ -55,6 +59,10 @@ body {
   border: none;
   font-size: 35px;
   cursor: pointer;
+}
+.line-one,
+button:hover {
+  background-color: rgb(134, 125, 125);
 }
 div .slash {
   flex-basis: 75px;
@@ -132,4 +140,7 @@ div .egale {
   border: none;
   font-size: 35px;
   cursor: pointer;
+}
+.egale:hover {
+  background-color: rgb(97, 243, 0);
 }
